@@ -25,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Register routes
 app.use(routes);
+app.use('/api/backend', routes);
 
 // Global Error Handler
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
