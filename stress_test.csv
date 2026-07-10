@@ -1,0 +1,41 @@
+Full Name,E-Mail Addresses,Mobile Numbers,Country,State,City,Creation Date,Lead Source,Status Interest,Additional Notes,Org Name,Possession Target
+John Doe,john.doe@example.com,9876543210,India,Maharashtra,Mumbai,13/05/2026 14:20:48,leads_on_demand,Good lead,Rescheduling demo,GrowEasy,Ready to move
+Sarah Johnson,sarah.johnson@example.com; sarah.work@tech.com,9876543211,India,Karnataka,Bangalore,13/05/2026 14:25:30,eden park,No reply,"Person was busy, will try again next week",Tech Solutions,6 months
+Rajesh Patel,,9876543212,India,Delhi,Delhi,13-05-2026 14:30:15,plots in sarjapur rd,Bad,Not interested in our services,Startup Inc,Immediate
+Invalid Lead Record,,,India,Maharashtra,Pune,13-05-2026 14:31:00,varah_swamy,,No contacts available here,Invalid Corp,2027
+Priya Singh,priya.singh@example.com,9876543213,India,Maharashtra,Pune,2026-05-13 14:35:22,eden_park,Closed,"Deal closed, onboarding in progress",Enterprise Corp,Immediate
+Amit Sharma,amit.sharma@example.com,919876543214,India,Haryana,Gurugram,14th May 2026,meridian_tower,Interested,Call back tomorrow at 5 PM,Sharma & Co,1 year
+Robert Chen,robert.chen@example.com,1-555-019-2834,USA,California,San Francisco,,eden park,Follow up,Interested in 2BHK plots,Silicon Valley,Immediate
+Emily Watson,emily.w@example.com; emily.watson@gmail.com,1234567890; 0987654321,UK,London,London,2026-05-14T09:00:00Z,,Busy,Has multiple inquiries,Watson Group,Under construction
+David Miller,,+91-8765432109,India,Tamil Nadu,Chennai,2026-05-14,eden_park,Follow_up,Rescheduling meeting,,Immediate
+Blank Contact Lead,,,India,,,2026-05-14 10:15:00,sarjapur_plots,Interested,Should be skipped due to missing contacts,,
+Vikram Malhotra,vikram@malhotra.com,9876543215,India,Uttar Pradesh,Noida,14/05/2026,meridian tower,Deal won,Closed won on first call,Malhotra Enterprises,Immediate
+Siddharth Sen,siddharth.sen@example.com,9876543216,India,West Bengal,Kolkata,15-May-2026,varah swamy,Not connecting,Continuous ringing,Sen Consultants,Ready to move
+Ananya Iyer,ananya.iyer@example.com,9876543217,India,Karnataka,Bangalore,,sarjapur_plots,Follow_up,Rescheduled demo to next Friday,,6 months
+Michael Brown,michael.b@example.com,,USA,Texas,Austin,2026-05-15,leads_on_demand,Interested,Send PDF brochures,Brown & Sons,Immediate
+Jessica Taylor,,9876543218,India,Gujarat,Ahmedabad,15/05/2026 11:30:00,varah_swamy,Dead lead,Irrelevant query,Taylor Ltd,Immediate
+No Email Customer,,9876543219,India,Maharashtra,Nagpur,2026-05-15 12:00:00,meridian_tower,Warm lead,Wants site visit next Sunday,,Immediate
+No Phone Customer,customer@gmail.com,,India,Karnataka,Mysore,2026-05-15 12:30:00,sarjapur_plots,Follow up,Will check with family,,6 months
+Double Email Lead,first@test.com; second@test.com,9876543220,India,Maharashtra,Thane,2026-05-15 13:00:00,eden_park,No reply,Rang twice,,Immediate
+Double Phone Lead,doublephone@test.com,9876543221; 8765432210,India,Goa,Panaji,2026-05-15 13:30:00,leads_on_demand,Interested,Needs pricing details,,Immediate
+Ambiguous Date Customer,ambig@test.com,9876543222,India,Kerala,Kochi,05-16-2026 14:00,varah_swamy,Follow up,Wants unit plan,,1 year
+Yesterday Date Customer,yesterday@test.com,9876543223,India,Punjab,Amritsar,yesterday,meridian_tower,Not interested,Too expensive,,Immediate
+Unknown Project Lead,unknown@test.com,9876543224,India,Haryana,Faridabad,2026-05-16,unknown_project_name,Interested,General inquiry,,Immediate
+Line Break In Notes,linebreak@test.com,9876543225,India,Karnataka,Hubli,2026-05-16,eden_park,Follow up,"Customer requested:\n1. Pricing chart\n2. Layout plan",Break Corp,Immediate
+Whitespace Padded Customer,   white@test.com   ,   9876543226   ,India,Maharashtra,Nashik,2026-05-16,leads_on_demand,No answer,Spaced out input,,Immediate
+Empty Row Test Record,,,India,,,2026-05-16,,No reply,This row lacks contact details,,
+Rahul Verma,rahul.verma@example.com,9876543227,India,Madhya Pradesh,Bhopal,2026-05-17,meridian_tower,Closed,Onboarded successfully,Verma Tech,Immediate
+Karan Johar,karan@johar.com,9876543228,India,Maharashtra,Mumbai,2026-05-17 09:30:00,varah_swamy,No reply,Called 3 times,,2 years
+Sneha Reddy,sneha.reddy@example.com,9876543229,India,Telangana,Hyderabad,2026-05-17 10:00:00,sarjapur_plots,Follow up,Interested in corner plots,Reddy Associates,Immediate
+Deepak Gupta,deepak.g@example.com,,India,Rajasthan,Jaipur,2026-05-17 10:30:00,eden_park,Not interested,Requires discount,,Immediate
+Pooja Hegde,pooja@hegde.com,9876543230,India,Karnataka,Mangalore,2026-05-17 11:00:00,leads_on_demand,Follow up,Send payment link,Hegde Corp,Immediate
+No Contacts Record 3,,,India,Goa,Vasco,2026-05-17,,Interested,,,
+Abhishek Bachchan,abhishek@bachchan.com,9876543231,India,Maharashtra,Mumbai,2026-05-17 12:00:00,meridian_tower,Closed,Leased out successfully,,Immediate
+Aishwarya Rai,aishwarya@rai.com,9876543232,India,Karnataka,Bangalore,2026-05-17 12:30:00,eden_park,Follow up,Wants copy of contract,,Immediate
+Hrithik Roshan,hrithik@roshan.com,9876543233,India,Maharashtra,Mumbai,2026-05-17 13:00:00,varah_swamy,Not interested,Purchased elsewhere,,Immediate
+Katrina Kaif,katrina@kaif.com,9876543234,India,Maharashtra,Mumbai,2026-05-17 13:30:00,sarjapur_plots,No reply,Spoke to husband,, Immediate
+Ranbir Kapoor,ranbir@kapoor.com,9876543235,India,Maharashtra,Mumbai,2026-05-17 14:00:00,leads_on_demand,Interested,Needs callback next Monday,,6 months
+Alia Bhatt,alia@bhatt.com,9876543236,India,Maharashtra,Mumbai,2026-05-17 14:30:00,eden_park,Closed,Onboarding complete,,Immediate
+Ranveer Singh,ranveer@singh.com,9876543237,India,Karnataka,Bangalore,2026-05-17 15:00:00,meridian_tower,Follow up,Looking for high-floor flat,,Immediate
+Deepika Padukone,deepika@padukone.com,9876543238,India,Karnataka,Bangalore,2026-05-17 15:30:00,sarjapur_plots,Closed,Payment completed,,Immediate
+No Contacts Record 4,,,India,Delhi,New Delhi,2026-05-17,,No answer,,,

@@ -1,0 +1,131 @@
+.zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--bg-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.zone:hover {
+  border-color: var(--primary);
+  background: rgba(139, 92, 246, 0.03);
+  box-shadow: 0 0 20px 0 rgba(139, 92, 246, 0.05);
+}
+
+.active {
+  border-color: var(--primary);
+  background: rgba(139, 92, 246, 0.08);
+  box-shadow: 0 0 30px 0 rgba(139, 92, 246, 0.12);
+}
+
+.input {
+  display: none;
+}
+
+.iconContainer {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  transition: var(--transition);
+}
+
+.zone:hover .iconContainer {
+  color: var(--primary);
+  transform: scale(1.05);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  max-width: 320px;
+}
+
+.fileCard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-top: 1rem;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.fileIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  background: var(--primary-glow);
+  color: var(--primary);
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.fileInfo {
+  flex-grow: 1;
+  text-align: left;
+  overflow: hidden;
+}
+
+.fileName {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fileSize {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.removeButton {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.removeButton:hover {
+  background: var(--danger-glow);
+  color: var(--danger);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
