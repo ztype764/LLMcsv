@@ -59,7 +59,16 @@ export default function Home() {
     const formData = new FormData();
     formData.append('file', file);
 
-    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+    // Dynamically resolve API base URL: check environment first, then fall back to /api/backend on Vercel production hosts
+    let apiBaseUrl = process.env.NEXT_PUBLIC_API_URL;
+    if (!apiBaseUrl) {
+      if (typeof window !== 'undefined') {
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        apiBaseUrl = isLocal ? 'http://localhost:5000' : '/api/backend';
+      } else {
+        apiBaseUrl = 'http://localhost:5000';
+      }
+    }
 
     try {
       const response = await fetch(`${apiBaseUrl}/api/import`, {
